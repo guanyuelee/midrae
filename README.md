@@ -53,14 +53,14 @@ Find *.sh in **runs** directory, we have all optimal hyperparameters for various
     bash runs/dr_acai.sh
     bash runs/midrae.sh
 
-You should be able to achieve the reported accuracy of single-layer classifier:
+You should be able to achieve the reported accuracy of single-layer classifier and clustering resuls:
 
 ![Accuracy](accuracy.png)
 
-You can check the model checkpoints and intermediate images in directory './TRAIN'. 
+You can also check the model checkpoints and intermediate images in directory './TRAIN'. 
 
 ## Results
-Some of the results if MIDR-AE are shound are follows:
+Some of the results of MIDR-AE are shown are follows:
 
 MNIST-32:
 ![MNIST results](./results/mnist32.png)
