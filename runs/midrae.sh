@@ -14,11 +14,5 @@
 
 #!/usr/bin/env bash
 
-python midrae.py --dataset=mnist32 --latent_width=4 --depth=16 --latent=2 --train_dir=TRAIN --wgt_mmd=1.0 --advnoise=0.05 --advfake=1.0
-python midrae.py --dataset=mnist32 --latent_width=4 --depth=16 --latent=16 --train_dir=TRAIN --wgt_mmd=1.0 --advnoise=0.5 --advfake=0.1
-
 python midrae.py --dataset=svhn32 --latent_width=4 --depth=64 --latent=2 --train_dir=TRAIN --wgt_mmd=1.0 --advnoise=0.1 --advfake=0.005
 python midrae.py --dataset=svhn32 --latent_width=4 --depth=64 --latent=16 --train_dir=TRAIN --wgt_mmd=1.0 --advnoise=0.5 --advfake=0.05
-
-python midrae.py --dataset=cifar10 --latent_width=4 --depth=64 --latent=16 --train_dir=TRAIN --wgt_mmd=1.0 --advnoise=0.01 --advfake=0.01
-python midrae.py --dataset=cifar10 --latent_width=4 --depth=64 --latent=64 --train_dir=TRAIN --wgt_mmd=1.0 --advnoise=0.01 --advfake=0.04
