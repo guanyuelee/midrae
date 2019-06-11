@@ -1,7 +1,7 @@
 # MIDR-AE
 ![model of midrae](./midrae-model.png)
 MIDR-AE (right) introduces Multidimensional Interpolation and Dual Regularizations to improve latent representations in autoencoders. 
-
+Code for Improving representation learning in autoencoders via multidimensional interpolation and dual regularizations, which is accepted by (International Joint Conference of Artificial Intelligence) IJCAI 2019. 
 ## Requirements
 Before running MIDR-AE, you need python==3.5.6 and the following python packages:
 - cudnn==7.1.2
